@@ -487,17 +487,13 @@ background-image: url(../img/historia2.jpg);
     text-align: left;  
 }
 /* ===== CARRUSEL ===== */
-
+/* MEDIA QUERIES 1280PX  */
 @media only screen and (max-width: 1280px ) { 
     
-
-}
-
-@media only screen and (max-width: 768px) { 
     .nav{ 
         display:block;
         height: auto;
-
+        position: fixed;
 
     }
     .nav-ul-li-a {
@@ -578,6 +574,116 @@ background-image: url(../img/historia2.jpg);
         padding-bottom: 100px;
     }
 }
+
+
+/* MEDIA QUERIES 768PX  */
+@media only screen and (max-width: 768px) {
+
+    .catFact {
+        justify-content: center;
+        font-size: 12px;
+        margin: 2rem;
+        padding: 1rem;
+        border-style: solid;
+        border-color: rgb(128, 128, 128);
+        border-radius: 1rem;
+        width: 200px;
+        height: 200px;
+    }
+    .contenedor2 {
+
+        grid-template-columns: repeat(1, 300px);
+        padding-bottom: 100px;
+        
+    }
+
+    .contenedor_contacto{
+        grid-template-columns: repeat(2,140px);
+        gap: 15px;
+        padding-top: 10px;
+        padding-bottom: 100px;
+    }
+    
+    .info_contacto h3{
+        font-size: 10px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .info_contacto h4{
+        font-size: 9px;
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+    
+    .info_contacto p{
+        font-size: 8px;
+        margin-top: 6px;
+    }
+    
+    #parrafo{
+        font-size: 8px;
+        margin-top: 6px;
+    }
+    
+    #parrafo2{
+        font-size: 8px;
+        margin-top: 6px;
+    }
+    .principal {
+        width:510px;
+    }
+     
+    form {
+        margin:0 auto;
+        width:140px;
+    }
+     
+    input, textarea {
+        width:140px;
+        height:10px;
+        padding:10px;
+        margin-top:5px;
+        font-size:10px;
+    }
+     
+    textarea {
+        height:50px;
+    }
+     
+    #submit {
+        font-size: 8px;
+        width: 60px;
+        height:27px;
+        margin-top: 10px;
+        margin-left: 2px;
+
+    }
+    .contenedor_empresa {/*EMPRESA*/
+        grid-template-columns: repeat(1, 200px);
+        gap: 10px;
+        padding-top: 40px;
+        padding-bottom: 100px;
+    }
+    
+    .contenedor_empresa h2 {
+        font-size: 20px;
+        padding-top: 5%; 
+    }
+    
+    .contenedor_empresa h3 {
+        width: 200px;
+        font-size: 15px;
+
+    }
+    
+    .contenedor_empresa p{
+        max-width: 300px;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+}
+
 /* MEDIA QUERIES 380 FALTA TERMINAR  */
 @media only screen and (max-width: 480px) {
 
