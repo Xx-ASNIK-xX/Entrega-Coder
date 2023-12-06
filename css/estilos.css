@@ -91,7 +91,7 @@ body{
     background: rgb(238, 12, 12);
 }
 
- /* ===== CARRUSEL DE IMAGENES ===== */
+ /* ===== CONTEBEDOR INICIO ===== */
 
  .contenedor{
     display: grid;
@@ -117,6 +117,7 @@ body{
     padding-top: 5%;
     font-family: Arial, Helvetica, sans-serif;
     font-style: bold;
+    font-weight: bold;
    
 }
 
@@ -128,6 +129,7 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: oblique;
     text-align: left;  
+    font-weight: bold;
 }
 
 .contenedor_galeria{
@@ -154,6 +156,7 @@ body{
     padding-top: 5%;
     font-family: Arial, Helvetica, sans-serif;
     font-style: bold;
+    font-weight: bold;
    
 }
 
@@ -165,76 +168,127 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: oblique;
     text-align: left;  
+    font-weight: bold;
 }
 
-/* ===== CONTENEDOR FRASES ===== */
-.contenedor2 {
-    background-color: rgb(255, 255, 255);
+/* ===== CONTENEDOR DE GALERIA ===== */
+.contenedor_galeria{
     display: grid;
-    grid-template-columns: repeat(1, 800px);
-    gap: 34px;
-    justify-content: center;
+    grid-template-columns: repeat(1, 600px);
+    justify-content: left;
     align-content: space-around;
-    justify-items: center;
-    padding-bottom: 100px;
+    justify-items: left;
+    padding-top: 12%;
+    padding-bottom: 45%;
+    background-image: url(../img/galeria.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
 }
 
-.contenedor2 h2 {
-    color: rgb(82, 82, 82);
-    font-size: 40px;
+.contenedor_galeria h1 {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 80px;
+    height: 110px;
+    color: rgb(0, 0, 0);
+    font-size: 60px;
     padding-top: 5%;
     font-family: Arial, Helvetica, sans-serif;
     font-style: bold;
-    text-align: center;    
+    font-weight: bold;
+   
 }
 
-.contenedor2 p{
-    color: rgb(82, 82, 82);
-    font-size: 20px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    margin-bottom: 20px;
+.contenedor_galeria h2 {
+    color: rgb(238, 12, 12);
+    margin-left: 10%;
+    margin-right: 108px;
+    font-size: 35px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    text-align: left;  
+    font-weight: bold;
 }
-
-/* ===== CONTENEDOR PIE DE PAGINA ===== */
-.contenedor_pie_de_pagina{
+/* ===== CONTENEDOR DE QUIENES SOMOS ===== */
+.contenedor_quienes_somos{
     display: grid;
-    grid-template-columns: repeat(3,100px);
-    gap: 22px;
-    justify-content: center;
+    grid-template-columns: repeat(1, 600px);
+    justify-content: left;
     align-content: space-around;
-    justify-items: center;
-    padding-top: 100px;
-    padding-bottom: 50px;
+    justify-items: left;
+    padding-top: 12%;
+    padding-bottom: 45%;
+background-image: url(../img/quienes_somos.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
 }
 
-#Derechos{
-    color: rgb(255, 255, 255);
-    font-size: 13px;
-    text-align: center;
+.contenedor_quienes_somos h1 {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 80px;
+    height: 110px;
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    padding-top: 5%;
     font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    margin-bottom: 0px;
+    font-style: bold;
+    font-weight: bold;
+   
 }
 
-.icono_redes{
-    float: left;
-    margin-left: 50px;
-    margin-right: 45px;
-    margin-top: 18px;
-    height: 70px;
-    width: auto;
-    text-align: center;
-    border-radius:50%;
-}
-.icono_redes:hover{
-    transition: all .5s;
-    box-shadow: 0px 0px 10px 10px rgb(29, 29, 29);
-    background-blend-mode: multiply; 
-    
+.contenedor_quienes_somos h2 {
+    color: rgb(238, 12, 12);
+    margin-left: 10%;
+    margin-right: 108px;
+    font-size: 35px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    text-align: left;  
+    font-weight: bold;
 }
 
+/* ===== CONTENEDOR DE HISTORIA ===== */
+.contenedor_historia{
+    display: grid;
+    grid-template-columns: repeat(1, 600px);
+    justify-content: left;
+    align-content: space-around;
+    justify-items: left;
+    padding-top: 12%;
+    padding-bottom: 45%;
+background-image: url(../img/historia2.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.contenedor_historia h1 {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 80px;
+    height: 110px;
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    padding-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-weight: bold;
+   
+}
+
+.contenedor_historia h2 {
+    color: rgb(238, 12, 12);
+    margin-left: 10%;
+    margin-right: 108px;
+    font-size: 35px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    text-align: left;  
+    font-weight: bold;
+}
 /* ===== CONTENEDOR DE CONTACTO ===== */
 .contenedor_contacto{
     display: grid;
@@ -271,6 +325,7 @@ body{
     padding-top: 5%;
     font-family: Arial, Helvetica, sans-serif;
     font-style: bold;
+    font-weight: bold;
    
 }
 
@@ -282,6 +337,7 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: oblique;
     text-align: left;  
+    font-weight: bold;
 }
 
 .info_contacto{
@@ -374,123 +430,86 @@ label {
     letter-spacing:1px;
 }
 
-/* ===== CONTENEDOR DE GALERIA ===== */
-.contenedor_galeria{
+/* ===== CONTENEDOR FRASES ===== */
+.contenedor2 {
+    background-color: rgb(255, 255, 255);
     display: grid;
-    grid-template-columns: repeat(1, 600px);
-    justify-content: left;
+    grid-template-columns: repeat(1, 800px);
+    gap: 34px;
+    justify-content: center;
     align-content: space-around;
-    justify-items: left;
-    padding-top: 12%;
-    padding-bottom: 45%;
-    background-image: url(../img/galeria.jpg);
-    background-position: center;
-    background-repeat:no-repeat;
-    background-size: cover;
+    justify-items: center;
+    padding-bottom: 100px;
 }
 
-.contenedor_galeria h1 {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 80px;
-    height: 110px;
-    color: rgb(0, 0, 0);
-    font-size: 60px;
+.contenedor2 h2 {
+    color: rgb(82, 82, 82);
+    font-size: 40px;
     padding-top: 5%;
     font-family: Arial, Helvetica, sans-serif;
     font-style: bold;
-   
+    text-align: center;    
 }
 
-.contenedor_galeria h2 {
-    color: rgb(238, 12, 12);
-    margin-left: 10%;
-    margin-right: 108px;
-    font-size: 35px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-style: oblique;
-    text-align: left;  
-}
-/* ===== CONTENEDOR DE QUIENES SOMOS ===== */
-.contenedor_quienes_somos{
-    display: grid;
-    grid-template-columns: repeat(1, 600px);
-    justify-content: left;
-    align-content: space-around;
-    justify-items: left;
-    padding-top: 12%;
-    padding-bottom: 45%;
-background-image: url(../img/quienes_somos.jpg);
-    background-position: center;
-    background-repeat:no-repeat;
-    background-size: cover;
-}
-
-.contenedor_quienes_somos h1 {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 80px;
-    height: 110px;
-    color: rgb(0, 0, 0);
-    font-size: 60px;
-    padding-top: 5%;
+.contenedor2 p{
+    color: rgb(82, 82, 82);
+    font-size: 20px;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-style: bold;
-   
+    font-style: italic;
+    margin-bottom: 20px;
 }
 
-.contenedor_quienes_somos h2 {
-    color: rgb(238, 12, 12);
-    margin-left: 10%;
-    margin-right: 108px;
-    font-size: 35px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-style: oblique;
-    text-align: left;  
-}
-
-/* ===== CONTENEDOR DE HISTORIA ===== */
-.contenedor_historia{
+/* ===== CONTENEDOR PIE DE PAGINA ===== */
+.contenedor_pie_de_pagina{
     display: grid;
-    grid-template-columns: repeat(1, 600px);
-    justify-content: left;
+    grid-template-columns: repeat(3,100px);
+    gap: 22px;
+    justify-content: center;
     align-content: space-around;
-    justify-items: left;
-    padding-top: 12%;
-    padding-bottom: 45%;
-background-image: url(../img/historia2.jpg);
-    background-position: center;
-    background-repeat:no-repeat;
-    background-size: cover;
+    justify-items: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
-.contenedor_historia h1 {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 80px;
-    height: 110px;
-    color: rgb(0, 0, 0);
-    font-size: 60px;
-    padding-top: 5%;
+#Derechos{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-style: bold;
-   
+    font-style: italic;
+    margin-bottom: 0px;
 }
 
-.contenedor_historia h2 {
-    color: rgb(238, 12, 12);
-    margin-left: 10%;
-    margin-right: 108px;
-    font-size: 35px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-style: oblique;
-    text-align: left;  
+.icono_redes{
+    float: left;
+    margin-left: 50px;
+    margin-right: 45px;
+    margin-top: 18px;
+    height: 70px;
+    width: auto;
+    text-align: center;
+    border-radius:50%;
+}
+.icono_redes:hover{
+    transition: all .5s;
+    box-shadow: 0px 0px 10px 10px rgb(29, 29, 29);
+    background-blend-mode: multiply; 
+    
 }
 /* ===== CARRUSEL ===== */
 /* MEDIA QUERIES 1280PX  */
 @media only screen and (max-width: 1024px ) { 
     
-    .nav{ 
+
+    .contenedor2 { /* CONTENEDOR DE TEXTO  */
+    
+        grid-template-columns: repeat(1, 647px);
+        padding-bottom: 100px;
+            
+    }
+
+    .nav{ /*BARRA DE NAVEGACION*/
         display:block;
         height: auto;
         position: fixed;
@@ -505,7 +524,7 @@ background-image: url(../img/historia2.jpg);
         width: 55vw;
         height: 55vw;
     }
-    .logo{ /*BARRA DE NAVEGACION*/
+    .logo{ 
         height: 0;
     }
 
@@ -559,8 +578,10 @@ background-image: url(../img/historia2.jpg);
     }
     .navigation:last-child{
         border-bottom: none;
-    }
+    } 
+    /*FIN BARRA DE NAVEGACION*/
 
+    /* =====CONTENEDOR IMAGENES PORTADA ===== */
     .contenedor{
         display: grid;
         grid-template-columns: repeat(1, 600px);
@@ -574,7 +595,8 @@ background-image: url(../img/historia2.jpg);
         background-repeat:no-repeat;
         background-size: cover;
     }
-    
+
+    /* CONTENEDOR DE TEXTO  */
     .contenedor h1 {
         margin-left: 10%;
         margin-right: 10%;
@@ -603,19 +625,75 @@ background-image: url(../img/historia2.jpg);
         padding-top: 10px;
         padding-bottom: 100px;
     }
+
+        /* CONTENEDOR PIE DE PAGINA  */
+        .contenedor_pie_de_pagina{
+            display: grid;
+            grid-template-columns: repeat(3,75px);
+            gap: 15px;
+    
+        }
+    
+        .icono_redes{
+            height: 60px;
+        }
+        /* FIN CONTENEDOR PIE DE PAGINA  */
+    
 }
 
 
 /* MEDIA QUERIES 768PX  */
 @media only screen and (max-width: 768px) {
+   
+    /* CONTENEDOR DE TEXTO  */
 
-    .contenedor2 {
+    .contenedor { 
+
+        grid-template-columns: repeat(1, 300px);
+        padding-bottom: 100px;
+      /*  background-image: none;
+        background-color: white; */
+        
+    }
+
+    .contenedor h1 {
+        height: 61px;
+        font-size: 30px;       
+    }
+    
+    .contenedor h2 {
+        margin-right: 0px;
+        font-size: 25px;
+    }
+
+    .contenedor_galeria h1 {
+        height: 61px;
+        font-size: 30px;       
+    }
+    
+    .contenedor_galeria h2 {
+        margin-right: 0px;
+        font-size: 25px;
+    }
+
+    .contenedor2 { 
 
         grid-template-columns: repeat(1, 300px);
         padding-bottom: 100px;
         
     }
 
+    .contenedor2 h1 {
+        height: 61px;
+        font-size: 30px;       
+    }
+    
+    .contenedor2 h2 {
+        margin-right: 0px;
+        font-size: 25px;
+    }
+
+     /* CONTENEDOR Y TEXTO DE CONTACTO  */
     .contenedor_contacto{
         grid-template-columns: repeat(2,140px);
         gap: 15px;
@@ -677,35 +755,44 @@ background-image: url(../img/historia2.jpg);
         margin-left: 2px;
 
     }
-    .contenedor_empresa {/*EMPRESA*/
-        grid-template-columns: repeat(1, 200px);
-        gap: 10px;
-        padding-top: 40px;
-        padding-bottom: 100px;
-    }
-    
-    .contenedor_empresa h2 {
-        font-size: 20px;
-        padding-top: 5%; 
-    }
-    
-    .contenedor_empresa h3 {
-        width: 200px;
-        font-size: 15px;
+    /* FIN CONTENEDOR Y TEXTO DE CONTACTO  */
+
+    /* CONTENEDOR PIE DE PAGINA  */
+    .contenedor_pie_de_pagina{
+        display: grid;
+        grid-template-columns: repeat(3,60px);
+        gap: 15px;
 
     }
-    
-    .contenedor_empresa p{
-        max-width: 300px;
-        font-size: 10px;
-        margin-bottom: 10px;
-    }
 
+    .icono_redes{
+        height: 50px;
+    }
+    /* FIN CONTENEDOR PIE DE PAGINA  */
 }
 
-/* MEDIA QUERIES 380 FALTA TERMINAR  */
+/* MEDIA QUERIES 480 FALTA TERMINAR  */
 @media only screen and (max-width: 480px) {
-    
+
+    /* CONTENEDOR DE TEXTO  */
+    .contenedor2 {
+
+        grid-template-columns: repeat(1, 100%);
+        padding-bottom: 100px;
+        background-image: none;
+        background-color: white; 
+    }
+
+    .contenedor { 
+
+        grid-template-columns: repeat(1, 100%);
+        padding-bottom: 100px;
+        background-image: none;
+        background-color: white; 
+        
+    }
+
+    /* CONTENEDOR Y TEXTO DE CONTACTO  */
     .contenedor_contacto{
         grid-template-columns: repeat(2,140px);
         gap: 15px;
@@ -767,11 +854,13 @@ background-image: url(../img/historia2.jpg);
         margin-left: 2px;
 
     }
+    /* FIN CONTENEDOR Y TEXTO DE CONTACTO  */
     
 }
-/* MEDIA QUERIES 380 FALTA TERMINAR  */
+/* MEDIA QUERIES 380  */
 @media only screen and (max-width: 310px) {
     
+    /* CONTENEDOR Y TEXTO DE CONTACTO  */
     .contenedor_contacto{
         grid-template-columns: repeat(1,140px);
         gap: 15px;
@@ -788,4 +877,5 @@ background-image: url(../img/historia2.jpg);
     textarea {
         height:40px;
     }
+    /* FIN CONTENEDOR Y TEXTO DE CONTACTO  */
 }
