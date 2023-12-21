@@ -1,0 +1,437 @@
+@media screen and (max-width: 1024px) {     
+    header{
+        
+        .nav{
+            display:block;
+            height: auto;
+            position: fixed;
+            
+                .img-thumbnail {
+                    width: 55vw;
+                    height: 55vw;
+                } 
+                .logo{
+                    height: 0;
+                }
+                .navigation{
+                padding-top: 20px;
+                list-style: none;
+                margin:0;
+                display:flex;
+                flex-flow: row wrap;
+                justify-content: flex-start;
+                  
+                
+                    li{
+                    float: left;
+                        
+                        a {
+                            padding: 10px;
+                       
+                            }
+                        }
+                       
+                    }       
+                }
+               
+                .navicon {
+                    margin:1.9em;
+                    width:40px;
+                }
+                
+                .navicon div, .navicon:before, .navicon:after {
+                    background-color: #fff;
+                    border-radius: 3px;
+                    display:block;
+                    height: 3px;
+                    content:'';
+                    margin:6px 0;
+                    transition: all 0.2s ease-out;
+                    
+                }
+                
+                .navicon.close div{
+                    transform: scale(0);
+                }
+                
+                .navicon.close:before{
+                    transform: scale(0.8) translatey(7px) rotate(135deg);
+                }
+                
+                .navicon.close:after{
+                    transform: scale(0.8) translatey(-14px) rotate(-135deg);
+                }
+                
+                .navicon.open div{
+                    transform: none;
+                }
+                
+                .navigation.open{
+                    display:none;
+                }
+                
+                .navigation.close{
+                 display: flex;
+                 flex-flow: column wrap;
+                 padding:0;
+                }
+                
+                .navigation li{
+                    text-align: center;
+                    padding:3px;
+                    border-top: 1px solid rgba(255,255,255,0.3);
+                    border-bottom: 2px solid rgba(215,230,224,0.1);
+                }
+                .navigation:last-child{
+                    border-bottom: none;
+                } 
+    }
+
+    section{
+
+        .contenedor_contacto{
+            grid-template-columns: repeat(2,300px);
+            gap: 10px;
+            padding-top: 10px;
+            padding-bottom: 100px;       
+                }
+            
+                .contenedor{
+                    background-color: white;
+                    padding-top: 10%;
+                }
+                
+                .contenedor h1 {
+            
+                    margin-top: -35%;
+                    left: 5%;
+                    font-size: 50px;
+                    font-weight: bold;
+                    color:#17181C
+                   
+                }
+                
+                .contenedor h2 {
+            
+                    margin-top: -55%;
+                    left: 5%;
+                    padding-top: 28%;
+                    font-size: 35px;
+                
+                }
+                .contenedor2 { /* CONTENEDOR DE TEXTO  */
+                
+                    grid-template-columns: repeat(1, 647px);
+                    padding-bottom: 100px;
+                        
+                }
+
+            }
+    footer{
+        .contenedor_pie_de_pagina{
+            display: grid;
+            grid-template-columns: repeat(3,75px);
+            gap: 15px;
+    
+        }
+    
+        .icono_redes{
+            height: 60px;
+        }
+        /* FIN CONTENEDOR PIE DE PAGINA  */
+        input, textarea {
+            width:311px;
+
+        }
+    }       
+}
+
+ 
+@media screen and (max-width: 768px){
+
+    section{
+
+        .image {
+            width: 100%;
+            height: auto;
+        }
+                
+        .contenedor h1 {            
+            margin-top: -35%;
+            left: 5%;
+            font-size: 30px;
+            font-weight: bold;
+            color:#17181C
+            }
+                
+        .contenedor h2 {
+            margin-top: -55%;
+            left: 5%;
+            padding-top: 27%;
+            font-size: 20px;
+            }
+
+        .contenedor2 { /* CONTENEDOR DE TEXTO  */
+            grid-template-columns: repeat(1, 314px);
+            padding-bottom: 100px;    
+            }
+
+        .contenedor_contacto{
+            grid-template-columns: repeat(1,480px);
+            gap: 15px;
+            padding-top: 10px;
+            padding-bottom: 100px;
+            
+            .info_contacto h3{
+                margin-top: 30px;
+                margin-bottom: 10px;
+            }
+            .info_contacto h4{
+                margin-top: 15px;
+                margin-bottom: 0px;
+            }
+            
+            .info_contacto p{
+                margin-top: 6px;
+            }
+            
+            #parrafo{
+                margin-top: 6px;
+            }
+            
+            #parrafo2{
+                margin-top: 6px;
+            }
+            .principal {
+                width:510px;
+            }
+             
+            form {
+                margin:0 auto;
+                width:80%;
+            }
+             
+            input, textarea {
+                width:140px;
+                height:10px;
+                padding:10px;
+                margin-top:5px;
+                font-size:10px;
+            }
+             
+            textarea {
+                height:50px;
+            }
+             
+            #submit {
+                font-size: 8px;
+                width: 60px;
+                height:27px;
+                margin-top: 10px;
+                margin-left: 2px;
+        
+            }    
+        }
+    } 
+
+    footer{
+
+        .contenedor_pie_de_pagina{
+            display: grid;
+            grid-template-columns: repeat(3,60px);
+            gap: 15px;
+        
+            }
+        
+            .icono_redes{
+                height: 50px;
+            }
+    }
+            
+            
+        /* FIN CONTENEDOR PIE DE PAGINA  */
+
+
+        
+      
+
+
+}
+
+@media only screen and (max-width: 480px){
+   
+    section{
+
+        .contenedor{
+            background-color: white;
+            padding-top: 40%;
+        }
+        
+        .image {
+            width: 100%;
+            padding-top: 2%;
+        }
+        
+        .contenedor2 { /* CONTENEDOR Y TEXTO SEGUNDA SECCIÓN  */
+    
+            grid-template-columns: repeat(1, 200px);
+            padding-bottom: 100px;
+            
+        }
+    
+        .contenedor2 h1 {
+            height: 61px;
+            font-size: 30px;       
+        }
+        
+        .contenedor2 h2 {
+            margin-right: 0px;
+            font-size: 25px;
+        }
+    
+        .contenedor h1 {
+            grid: center;
+            left: 5%;
+            font-size: 32px;
+            margin-top: -74%;
+           
+        }
+        
+        .contenedor h2 {
+            position: absolute;
+            left: 5%;
+            font-size: 24px;
+            margin-top: -90%;
+        
+        }
+    
+        .contenedor_contacto{
+            grid-template-columns: repeat(1,300px);
+            gap: 15px;
+            padding-top: 10px;
+            padding-bottom: 100px;
+
+            .info_contacto h3{
+                font-size: 10px;
+                margin-top: 30px;
+                margin-bottom: 10px;
+            }
+            .info_contacto h4{
+                font-size: 9px;
+                margin-top: 15px;
+                margin-bottom: 0px;
+            }
+            
+            .info_contacto p{
+                font-size: 8px;
+                margin-top: 6px;
+            }
+            
+            #parrafo{
+                font-size: 8px;
+                margin-top: 6px;
+            }
+            
+            #parrafo2{
+                font-size: 8px;
+                margin-top: 6px;
+            }
+            .principal {
+                width:510px;
+            }
+             
+            form {
+                margin:0 auto;
+                width:140px;
+            }
+             
+            input, textarea {
+                width:140px;
+                height:10px;
+                padding:10px;
+                margin-top:5px;
+                font-size:10px;
+            }
+             
+            textarea {
+                height:50px;
+            }
+             
+            #submit {
+                font-size: 8px;
+                width: 60px;
+                height:27px;
+                margin-top: 10px;
+                margin-left: 2px;
+        
+            } /* FIN CONTENEDOR Y TEXTO DE CONTACTO  */
+        
+        }
+    
+    
+    }
+
+    .footer{
+        .contenedor_pie_de_pagina{
+            display: grid;
+            grid-template-columns: repeat(3,50px);
+            gap: 15px;
+    
+        }
+        .icono_redes{
+            height: 40px;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 310px){
+    .contenedor{
+        background-color: white;
+        padding-top: 40%;
+
+        .image {
+            width: 100%;
+            padding-top: 8%;
+        }
+        
+        .contenedor h1 {
+            left: 5%;
+            font-size: 28px;
+            margin-top: -74%;
+           
+        }
+        
+        .contenedor h2 {
+            position: absolute;
+            left: 5%;
+            font-size: 20px;
+            margin-top: -88%;
+        
+        }
+            /* CONTENEDOR Y TEXTO DE CONTACTO  */
+        .contenedor_contacto{
+            grid-template-columns: repeat(1,140px);
+            gap: 15px;
+            padding-top: 10px;
+            padding-bottom: 100px;
+            form{
+                input, textarea {
+                    width:380px;
+                    height:40px;
+                }
+                input, textarea {
+                    width:160px;
+                    padding:10px;
+                    margin-top:5px;
+                    font-size:10px;
+                }
+                textarea {
+                    height:40px;
+                }
+            }
+        }
+
+    }
+
+}

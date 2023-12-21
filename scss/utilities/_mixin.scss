@@ -1,0 +1,5 @@
+@mixin flex($argumento1, $argumento2, $argumento3) {
+    justify-content : $argumento1;
+    align-content   : $argumento2;
+    justify-items   : $argumento3;
+  }

@@ -1,0 +1,41 @@
+footer{
+        .contenedor_pie_de_pagina{
+            display: grid;
+            grid-template-columns: repeat(3,100px);
+            gap: 22px;
+            padding-top: 100px;
+            padding-bottom: 50px;
+            @include flex(center, space-around, center);
+            //justify-content: center;
+            //align-content: space-around;
+            //justify-items: center;
+        }
+
+        #Derechos{
+            color: rgb(255, 255, 255);
+            font-size: 13px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin-bottom: 0px;
+        }
+
+        .icono_redes{
+            float: left;
+            margin-left: 50px;
+            margin-right: 45px;
+            margin-top: 18px;
+            height: 70px;
+            width: auto;
+            text-align: center;
+            border-radius:50%;
+        }
+
+        .icono_redes:hover{
+            transition: all .5s;
+            box-shadow: 0px 0px 10px 10px rgb(29, 29, 29);
+            background-blend-mode: multiply; 
+            
+        }
+    
+}
