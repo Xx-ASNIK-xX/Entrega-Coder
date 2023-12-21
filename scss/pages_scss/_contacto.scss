@@ -5,7 +5,7 @@ section{
     .contenedor_contacto{
     display: grid;
     grid-template-columns: repeat(2,340px);
-    gap: 165px;
+    gap: 166px;
     justify-content: center;
     align-content: space-around;
     justify-items: center;
@@ -62,7 +62,7 @@ section{
             }    
 
             input, textarea {
-            width:380px;
+            width:341px;
             height:40px;
             background:#ffffff;
             border-radius: 1em;

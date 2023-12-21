@@ -90,7 +90,7 @@
     section{
 
         .contenedor_contacto{
-            grid-template-columns: repeat(2,300px);
+            grid-template-columns: repeat(2,376px);
             gap: 10px;
             padding-top: 10px;
             padding-bottom: 100px;       
@@ -177,7 +177,7 @@
             }
 
         .contenedor_contacto{
-            grid-template-columns: repeat(1,480px);
+            grid-template-columns: repeat(1,430px);
             gap: 15px;
             padding-top: 10px;
             padding-bottom: 100px;
@@ -211,7 +211,7 @@
                 width:80%;
             }
              
-            input, textarea {
+            input{
                 width:140px;
                 height:10px;
                 padding:10px;
@@ -306,24 +306,24 @@
         }
     
         .contenedor_contacto{
-            grid-template-columns: repeat(1,300px);
+            grid-template-columns: repeat(1,240px);
             gap: 15px;
-            padding-top: 10px;
+            padding-top: 41px;
             padding-bottom: 100px;
 
             .info_contacto h3{
-                font-size: 10px;
+                font-size: 20px;
                 margin-top: 30px;
                 margin-bottom: 10px;
             }
             .info_contacto h4{
-                font-size: 9px;
+                font-size: 12px;
                 margin-top: 15px;
                 margin-bottom: 0px;
             }
             
             .info_contacto p{
-                font-size: 8px;
+                font-size: 12px;
                 margin-top: 6px;
             }
             
@@ -342,7 +342,11 @@
              
             form {
                 margin:0 auto;
-                width:140px;
+                width:282px;
+                
+                input, textarea {
+                    width:240px;
+                    }
             }
              
             input, textarea {

@@ -172,7 +172,7 @@ footer .icono_redes:hover {
 section .contenedor_contacto {
   display: grid;
   grid-template-columns: repeat(2, 340px);
-  gap: 165px;
+  gap: 166px;
   justify-content: center;
   align-content: space-around;
   justify-items: center;
@@ -223,7 +223,7 @@ section .contenedor_contacto form label {
   letter-spacing: 1px;
 }
 section .contenedor_contacto form input, section .contenedor_contacto form textarea {
-  width: 380px;
+  width: 341px;
   height: 40px;
   background: #ffffff;
   border-radius: 1em;
@@ -324,7 +324,7 @@ section .contenedor_contacto form #submit:hover {
     border-bottom: none;
   }
   section .contenedor_contacto {
-    grid-template-columns: repeat(2, 300px);
+    grid-template-columns: repeat(2, 376px);
     gap: 10px;
     padding-top: 10px;
     padding-bottom: 100px;
@@ -388,7 +388,7 @@ section .contenedor_contacto form #submit:hover {
     padding-bottom: 100px;
   }
   section .contenedor_contacto {
-    grid-template-columns: repeat(1, 480px);
+    grid-template-columns: repeat(1, 430px);
     gap: 15px;
     padding-top: 10px;
     padding-bottom: 100px;
@@ -417,7 +417,7 @@ section .contenedor_contacto form #submit:hover {
     margin: 0 auto;
     width: 80%;
   }
-  section .contenedor_contacto input, section .contenedor_contacto textarea {
+  section .contenedor_contacto input {
     width: 140px;
     height: 10px;
     padding: 10px;
@@ -478,24 +478,24 @@ section .contenedor_contacto form #submit:hover {
     margin-top: -90%;
   }
   section .contenedor_contacto {
-    grid-template-columns: repeat(1, 300px);
+    grid-template-columns: repeat(1, 240px);
     gap: 15px;
-    padding-top: 10px;
+    padding-top: 41px;
     padding-bottom: 100px;
     /* FIN CONTENEDOR Y TEXTO DE CONTACTO  */
   }
   section .contenedor_contacto .info_contacto h3 {
-    font-size: 10px;
+    font-size: 20px;
     margin-top: 30px;
     margin-bottom: 10px;
   }
   section .contenedor_contacto .info_contacto h4 {
-    font-size: 9px;
+    font-size: 12px;
     margin-top: 15px;
     margin-bottom: 0px;
   }
   section .contenedor_contacto .info_contacto p {
-    font-size: 8px;
+    font-size: 12px;
     margin-top: 6px;
   }
   section .contenedor_contacto #parrafo {
@@ -511,7 +511,10 @@ section .contenedor_contacto form #submit:hover {
   }
   section .contenedor_contacto form {
     margin: 0 auto;
-    width: 140px;
+    width: 282px;
+  }
+  section .contenedor_contacto form input, section .contenedor_contacto form textarea {
+    width: 240px;
   }
   section .contenedor_contacto input, section .contenedor_contacto textarea {
     width: 140px;
