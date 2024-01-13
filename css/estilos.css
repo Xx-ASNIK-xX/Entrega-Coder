@@ -117,7 +117,7 @@ section .contenedor2 {
   justify-items: center;
   padding-bottom: 100px;
 }
-section .contenedor2 h2 {
+section .contenedor2 h3 {
   color: rgb(82, 82, 82);
   font-size: 40px;
   padding-top: 5%;
@@ -265,7 +265,10 @@ section .contenedor_contacto form #submit:hover {
     height: 55vw;
   }
   header .nav .logo {
-    height: 0;
+    position: absolute;
+    margin-left: 87%;
+    margin-top: -22px;
+    height: 50px;
   }
   header .nav .navigation {
     padding-top: 20px;
@@ -366,6 +369,9 @@ section .contenedor_contacto form #submit:hover {
   }
 }
 @media screen and (max-width: 768px) {
+  header .nav .logo {
+    margin-left: 80%;
+  }
   section .image {
     width: 100%;
     height: auto;
@@ -445,6 +451,9 @@ section .contenedor_contacto form #submit:hover {
   /* FIN CONTENEDOR PIE DE PAGINA  */
 }
 @media only screen and (max-width: 480px) {
+  header .nav .logo {
+    margin-left: 68%;
+  }
   section .contenedor {
     background-color: white;
     padding-top: 40%;
@@ -543,6 +552,9 @@ section .contenedor_contacto form #submit:hover {
   }
 }
 @media only screen and (max-width: 310px) {
+  header .nav .logo {
+    margin-left: 60%;
+  }
   .contenedor {
     background-color: white;
     padding-top: 40%;

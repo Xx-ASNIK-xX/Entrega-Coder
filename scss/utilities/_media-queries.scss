@@ -11,7 +11,10 @@
                     height: 55vw;
                 } 
                 .logo{
-                    height: 0;
+                    position: absolute;
+                    margin-left: 87%;
+                    margin-top: -22px;
+                    height: 50px;
                 }
                 .navigation{
                 padding-top: 20px;
@@ -149,6 +152,18 @@
  
 @media screen and (max-width: 768px){
 
+    header{
+        
+        .nav{
+
+            
+                .logo{
+                    margin-left: 80%;
+
+                }
+ 
+        }
+    }
     section{
 
         .image {
@@ -259,7 +274,18 @@
 }
 
 @media only screen and (max-width: 480px){
-   
+    header{
+        
+        .nav{
+
+            
+                .logo{
+                    margin-left: 68%;
+
+                }
+ 
+        }
+    }
     section{
 
         .contenedor{
@@ -390,6 +416,20 @@
 }
 
 @media only screen and (max-width: 310px){
+   
+    header{
+        
+        .nav{
+
+            
+                .logo{
+                    margin-left: 60%;
+
+                }
+ 
+        }
+    }
+   
     .contenedor{
         background-color: white;
         padding-top: 40%;
